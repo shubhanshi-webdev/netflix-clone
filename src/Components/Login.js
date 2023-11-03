@@ -62,7 +62,7 @@ const Login = () => {
           const errorMessage = error.message;
             setErrorMsg(errorCode + '' + errorMessage)
           }); 
-          console.log(user)
+          // console.log(user)
           
         })
         .catch((error) => {

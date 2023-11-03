@@ -68,3 +68,25 @@
 .userDetails li{
     margin: 0 10px;
 }
+.maincontainer{
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+.movieTrailerContainer{
+    height: 100vh;
+}
+.movieDataContainer{
+    position: absolute;
+    top: 40%;
+    width: 30%;
+    padding: 20px
+}
+.movieDataContainer p{
+    color: #fff;
+    font-size: 40px;
+}
+.description{
+    color: #fff;
+    font-size: 20px;
+}

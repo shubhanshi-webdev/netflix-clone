@@ -8,7 +8,7 @@ const Header = () => {
   // console.log(auth);
   const navigate = useNavigate();
   const userData = useSelector((store) => store.user);
-  console.log(userData)
+  // console.log(userData)
   const handleLogout = () => {
     signOut(auth).then(() => {
       navigate('/')
